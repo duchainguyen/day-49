@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+body {
+  overflow: hidden;
+  /* margin: 10px; */
+}
+.container {
+  margin: 10px;
+}
+h1,
+h3,
+h4 {
+  padding: 15px 0px;
+}
+.dark-light-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.light-mode {
+  background-color: #fff;
+  color: #000;
+  height: 100vh;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+  background-color: #333;
+  height: 100vh;
+  color: #fff;
+}
+
+.slider-input {
+  width: 100%;
+}
+
+.dot5 {
+}
+.dot100 {
+  position: absolute;
+  left: 9%;
+}
+.dot256 {
+  position: absolute;
+
+  left: 24.3%;
+}
+.dot512 {
+  position: absolute;
+  left: 49%;
+}
+.dot1024 {
+  position: absolute;
+  right: 0;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.checkinput {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid #ccc;
+}
+
+.messageTB {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
